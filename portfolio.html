@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólió</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <script src="scripts/responsive.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><h1><a href="./"><span>ZSOLT</span>PAP</a></h1></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="./">Magamról</a></li>
+            <li><a href="./skills">Képességek</a></li>
+            <li><a class="active" href="./portfolio">Portfólió</a></li>
+            <li><a href="./contact">Kapcsolat</a></li>
+        </ul>
+    </nav>
+    <main class="wrapper">
+
+        <div class="main-title">
+            <h1>Portfólió</h1>
+        </div>
+        <div class="sec-title">
+            <h2>Projektek</h2>
+        </div>
+        <div class="projects">
+            <div class="project">
+                <div class="project-img">
+                    <img src="./images/devhelp.PNG" alt="Developer help">
+                </div>
+                <div class="project-info">
+                    <h1 class="project-title">Developing Help</h1>
+                    <div class="project-technology">
+                        <span>HTML, CSS, Javascript</span>
+                    </div>
+                    <p class="project-text">Ezen a weboldalon menükben különszedve az általam megtanult, megismert programozási nyelvek, framework-ök, technológiák tulajdonsága, működése, van leírva, szövegben, vagy akár kódrészletben.</p>
+                    <p class="project-text-sec">Lehet keresni a kódok témája között, és a fontosabb kódrészleteket ki lehet másolni a vágólapra egy kattintással.</p>
+                    <div class="project-buttons">
+                        <a class="project-btn" target="_blank" href="https://github.com/pazso99/devHelp">Code</a>
+                        <a class="project-btn" target="_blank" href="https://pazso99.github.io/devHelp/">Live</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="line">
+            <div class="project">
+                <div class="project-img">
+                    <img src="./images/daily.PNG" alt="">
+                </div>
+                <div class="project-info">
+                    <h1 class="project-title">Napi kalória számláló</h1>
+                    <div class="project-technology">
+                        <span>PHP, MySQL, Javascript, CSS</span>
+                    </div>
+                    <p class="project-text">Napi kalória számláló, nyílvántartja a user, továbbá az ételek adatait. A DailyCalorie fül alatt meglehet tekinteni a user adatait, és az aznapi elfogyasztott ételeket, továbbá hozzá lehet adni az elfogyasztott ételeket, ami frissíti a napi kalóriát<br></p>
+                    <p class="project-text-sec">Az oldalra beregisztrálás során kiszámolja a user alapján megadott adatokat: súly, magasság, napi mozgás stb, és az alapján, hogy a user hízni, fogyni, vagy megtartani akarja súlyát, kiszámolja a napi kalóriát, napi szénhidrátot stb.. 
+                        A bejelentkezett userek hozzáadhatnak(100g, vagy db alapján), törölhetnek, és kereshetnek az ételek között(ajax segítségével dinamikusan)<br>
+                        DailyCalories: Ételek kiválasztása, majd étel adag megadása után levonja a napi adatokból az étel adatait, és kilistázza az elfogyasztott ételeket dátummal. Session alapján megtarja az adatokat.
+                    </p>
+                    <div class="project-buttons">
+                        <a class="project-btn" target="_blank" href="https://github.com/pazso99/dailyCalories">Code</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="line">
+            <div class="project">
+                <div class="project-img">
+                    <img src="./images/recept.PNG" alt="">
+                </div>
+                <div class="project-info">
+                    <h1 class="project-title">Konyhai receptnyilvántartó</h1>
+                    <div class="project-technology">
+                        <span>Java, MySQL</span>
+                    </div>
+                    <p class="project-text">Vizuális programozás kurzusra készült beadandó. Az adatbázisba különböző recepteket lehet felvinni. 
+                        Egy receptről nyilván vannak tartva az alapanyagok, és hogy hány személyre szól. A recepteket ki lehet listázni, és egy recept kiválasztása után kilehet választani hogy, hány személyre készüljön az adott recept.
+                    A programhoz készült fejlesztői, és felhasználói dokumentáció</p>
+                    <div class="project-buttons">
+                        <a class="project-btn" target="_blank" href="https://github.com/pazso99/receptKonyv">Code</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="line">
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h4>Az oldalról</h4>
+                <p>Az önéletrajz bővítése, saját magam, illetve a projekteimnek, képességeimnek bemutatása. Emellett gyakorlásként jött létre, HTML, CSS, JS használatával</p>   
+            </div>
+            <div class="footer-links">
+                <h4>Gyorslinkek</h4>
+                <ul>
+                    <li><a href="./">Rólam</a></li>
+                    <li><a href="./skills">Képességek</a></li>
+                    <li><a href="./portfolio">Portfólió</a></li>
+                    <li><a href="./contact">Kapcsolat</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Email</h4>
+                <i>pzsolti99@gmail.com</i>
+            </div>
+        </div>
+    </footer> 
+        
+
+</body>
+</html>
