@@ -133,7 +133,7 @@
 }
 
 .main-title h1 {
-  font-size: 34px;
+  font-size: 35px;
   font-weight: 500;
 }
 
@@ -143,7 +143,7 @@
 }
 
 .sec-title h2 {
-  font-size: 25px;
+  font-size: 21px;
   font-weight: 430;
 }
 
@@ -157,7 +157,7 @@
 }
 
 .me .me-c {
-  width: 42%;
+  width: 258px;
   overflow: hidden;
   white-space: nowrap;
   letter-spacing: 1px;
@@ -166,7 +166,14 @@
 }
 
 .me .me-img {
-  margin: 0 20px 20px 0;
+  margin: 0 20px 10px 0;
+  min-width: 200px;
+  position: relative;
+}
+.me .me-img img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .me .me-info p{
@@ -526,7 +533,7 @@ span.underline {
     width: 0;
   }
   to {
-    width: 42%;
+    width: 258px;
   }
 }
 
@@ -596,6 +603,11 @@ span.underline {
 
   .me .me-img {
     margin: 0 auto 15px auto;
+    width: 40%;
+  }
+  .me .me-img img{
+    width: 100%;
+    position: static;
   }
 
   .me .me-c { 

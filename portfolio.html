@@ -7,12 +7,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="./images/icon.png">
     <script src="scripts/responsive.js" defer></script>
 </head>
 <body>
     <nav class="navbar">
         <div class="logo"><h1><a href="./"><span>ZSOLT</span>PAP</a></h1></div>
-        <a href="#" class="toggle-button">
+        <a class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
@@ -45,7 +46,7 @@
                     <p class="project-text">Ezen a weboldalon menükben különszedve az általam megtanult, megismert programozási nyelvek, framework-ök, technológiák tulajdonsága, működése, van leírva, szövegben, vagy akár kódrészletben.</p>
                     <p class="project-text-sec">Lehet keresni a kódok témája között, és a fontosabb kódrészleteket ki lehet másolni a vágólapra egy kattintással.</p>
                     <div class="project-buttons">
-                        <a class="project-btn" target="_blank" href="https://github.com/pazso99/devHelp">Code</a>
+                        <a class="project-btn" target="_blank" href="https://github.com/pazso99/devHelp">Kód</a>
                         <a class="project-btn" target="_blank" href="https://pazso99.github.io/devHelp/">Live</a>
                     </div>
                 </div>
@@ -53,27 +54,44 @@
             <hr class="line">
             <div class="project">
                 <div class="project-img">
-                    <img src="./images/daily.PNG" alt="">
+                    <img src="./images/webpage.PNG" alt="Portfolio site">
                 </div>
                 <div class="project-info">
-                    <h1 class="project-title">Napi kalória számláló</h1>
+                    <h1 class="project-title">Portfólió weblap</h1>
                     <div class="project-technology">
-                        <span>PHP, MySQL, Javascript, CSS</span>
+                        <span>HTML, CSS, Javascript</span>
                     </div>
-                    <p class="project-text">Napi kalória számláló, nyílvántartja a user, továbbá az ételek adatait. A DailyCalorie fül alatt meglehet tekinteni a user adatait, és az aznapi elfogyasztott ételeket, továbbá hozzá lehet adni az elfogyasztott ételeket, ami frissíti a napi kalóriát<br></p>
-                    <p class="project-text-sec">Az oldalra beregisztrálás során kiszámolja a user alapján megadott adatokat: súly, magasság, napi mozgás stb, és az alapján, hogy a user hízni, fogyni, vagy megtartani akarja súlyát, kiszámolja a napi kalóriát, napi szénhidrátot stb.. 
-                        A bejelentkezett userek hozzáadhatnak(100g, vagy db alapján), törölhetnek, és kereshetnek az ételek között(ajax segítségével dinamikusan)<br>
-                        DailyCalories: Ételek kiválasztása, majd étel adag megadása után levonja a napi adatokból az étel adatait, és kilistázza az elfogyasztott ételeket dátummal. Session alapján megtarja az adatokat.
-                    </p>
+                    <p class="project-text">A weblap segítségével nagyobb képben mutatom be magamat.</p>
+                    <p class="project-text-sec">Az oldal reszponzív, és használok benne css animációt. Ezt a weboldalt deploy-oltam legelőször az internetre.</p>
                     <div class="project-buttons">
-                        <a class="project-btn" target="_blank" href="https://github.com/pazso99/dailyCalories">Code</a>
+                        <a class="project-btn" target="_blank" href="https://github.com/pazso99/weboldal">Kód</a>
                     </div>
                 </div>
             </div>
             <hr class="line">
             <div class="project">
                 <div class="project-img">
-                    <img src="./images/recept.PNG" alt="">
+                    <img src="./images/daily.PNG" alt="Daily calories">
+                </div>
+                <div class="project-info">
+                    <h1 class="project-title">Napi kalória számláló</h1>
+                    <div class="project-technology">
+                        <span>HTML, CSS, Javascript, PHP, MySQL</span>
+                    </div>
+                    <p class="project-text">Napi kalória számláló, nyílvántartja a user, továbbá az ételek adatait. A DailyCalories fül alatt meglehet tekinteni a user adatait, és az aznapi elfogyasztott ételeket, továbbá hozzá lehet adni az elfogyasztott ételeket, ami frissíti a napi kalóriát<br></p>
+                    <p class="project-text-sec">Az oldalra beregisztrálás során kiszámolja a user alapján megadott adatokat: súly, magasság, napi mozgás stb, és az alapján, hogy a user hízni, fogyni, vagy megtartani akarja súlyát, kiszámolja a napi kalóriát, napi szénhidrátot stb.. 
+                        A bejelentkezett userek hozzáadhatnak(100g, vagy db alapján), törölhetnek, és kereshetnek az ételek között(ajax segítségével dinamikusan)<br>
+                        DailyCalories: Ételek kiválasztása, majd étel adag megadása után levonja a napi adatokból az étel adatait, és kilistázza az elfogyasztott ételeket dátummal. Session alapján megtarja az adatokat.
+                    </p>
+                    <div class="project-buttons">
+                        <a class="project-btn" target="_blank" href="https://github.com/pazso99/dailyCalories">Kód</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="line">
+            <div class="project">
+                <div class="project-img">
+                    <img src="./images/recept.PNG" alt="Recept">
                 </div>
                 <div class="project-info">
                     <h1 class="project-title">Konyhai receptnyilvántartó</h1>
@@ -84,7 +102,7 @@
                         Egy receptről nyilván vannak tartva az alapanyagok, és hogy hány személyre szól. A recepteket ki lehet listázni, és egy recept kiválasztása után kilehet választani hogy, hány személyre készüljön az adott recept.
                     A programhoz készült fejlesztői, és felhasználói dokumentáció</p>
                     <div class="project-buttons">
-                        <a class="project-btn" target="_blank" href="https://github.com/pazso99/receptKonyv">Code</a>
+                        <a class="project-btn" target="_blank" href="https://github.com/pazso99/receptKonyv">Kód</a>
                     </div>
                 </div>
             </div>
